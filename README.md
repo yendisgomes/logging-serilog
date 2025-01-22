@@ -55,6 +55,9 @@ monitor and analyze your application’s structured logs
 docker run --name seq -d -e ACCEPT_EULA=Y -p 80:80 -p 5341:5341 datalust/seq
 ```
 
+![image](https://github.com/user-attachments/assets/a68d6daf-906c-47b0-8120-c0e44a0c3622)
+
+
 ## Project Structure
 - `Program.cs`: The main entry point of the application, setting up Serilog and configuring the web host.
 - `Services/IDummyService.cs`: Interface for the dummy service.
